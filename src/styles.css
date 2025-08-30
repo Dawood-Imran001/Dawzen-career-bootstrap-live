@@ -1,0 +1,32 @@
+:root{
+    --bs-font-sans-serif: "Montserrat",sans-serif;
+    --bs-green:#2E6F40;
+    --bs-primary:#2E6F40 !important;
+}
+
+.bg-primary{
+    background-color: var(--bs-primary) !important;
+}
+
+.btn-primary{
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary);
+}
+
+.table-primary {
+    --bs-table-striped-bg:#CFFFDC !important;
+}
+
+.table-striped tr:nth-child(even) {
+    --bs-table-bg: #ffffff;
+}
+
+.table th {
+    --bs-table-striped-bg: #68BA7F;
+    --bs-table-bg: #68BA7F;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+    font-weight: 600;
+}
